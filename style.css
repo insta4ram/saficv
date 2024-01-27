@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.header{
+    width: 450%;
+    height: 65px;
+    background-color: rgba(3, 91, 255, 0.363);
+    margin-top: -45px;
+}
+.header p{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 600; 
+}
+.pic{
+    text-align: center;
+}
+.pic img{
+    width: 700px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
