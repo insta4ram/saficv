@@ -31,6 +31,41 @@ body {
     transform: translateY(-20px);
     transition: 0.5s;
 }
+.button{
+    margin-top: 90px;
+    display: flex;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: #0465a7;
+    margin-left: 47%;
+    border-radius: 15px;
+}
+.button:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+.button a{
+    color: white;
+    margin-left: 21%;
+    margin-top: 30px;
+    background-color: #0465a7;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    color: aliceblue;
+    text-align: center;
+    
+}
+.footer p{
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
 /* Media Queries */
 @media screen and (max-width: 600px) {
     .pic img {
@@ -47,4 +82,16 @@ body {
     .header{
         height: 250px;
     }
+    .button{
+        height: 50px;
+        margin-left: 190px;
+    }
+    .button a{
+      margin-top: 8px;
+      margin-left: 50px;
+      font-size: 30px;
+    }
+    .footer p{
+        font-size: 20px;
+        margin-left: 0px;
 }
